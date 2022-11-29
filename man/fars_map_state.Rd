@@ -10,7 +10,7 @@ fars_map_state(state.num, year)
 \item{state.num}{A state number; accepts text or number but is coerced
 to number}
 
-\item{years}{A year; accepts text or number but is coerced to number}
+\item{year}{A year; accepts text or number but is coerced to number}
 }
 \value{
 A plot of accidents in the state from the provided year

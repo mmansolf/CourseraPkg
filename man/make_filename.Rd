@@ -2,7 +2,7 @@
 % Please edit documentation in R/fars_functions.R
 \name{make_filename}
 \alias{make_filename}
-\title{Makes a filename for use in \code{fars_read}}
+\title{Makes a Filename for Use in \code{fars_read}}
 \usage{
 make_filename(year)
 }

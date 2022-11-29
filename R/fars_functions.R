@@ -1,6 +1,6 @@
 #' Reads an Accident File
 #'
-#' This is a simple function that reads in a file using \code{\link{readr::read_csv}} and
+#' This is a simple function that reads in a file using \code{readr::read_csv} and
 #' converts it to a \code{tibble}.
 #' Requires the following packages: \code{readr}, \code{dplyr}
 #'
@@ -115,7 +115,7 @@ fars_summarize_years <- function(years) {
 #'
 #' @param state.num A state number; accepts text or number but is coerced
 #' to number
-#' @param years A year; accepts text or number but is coerced to number
+#' @param year A year; accepts text or number but is coerced to number
 #'
 #' @return A plot of accidents in the state from the provided year
 #'

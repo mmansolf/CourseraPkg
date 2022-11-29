@@ -2,7 +2,7 @@
 % Please edit documentation in R/fars_functions.R
 \name{fars_read}
 \alias{fars_read}
-\title{Reads a file}
+\title{Reads an Accident File}
 \usage{
 fars_read(filename)
 }
@@ -13,7 +13,7 @@ fars_read(filename)
 A \code{tibble} containing the read-in data
 }
 \description{
-This is a simple function that reads in a file using \code{\link{readr::read_csv}} and
+This is a simple function that reads in a file using \code{readr::read_csv} and
 converts it to a \code{tibble}.
 Requires the following packages: \code{readr}, \code{dplyr}
 }
