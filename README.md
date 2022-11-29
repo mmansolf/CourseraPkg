@@ -6,6 +6,9 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/mmansolf/CourseraPkg/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/mmansolf/CourseraPkg/actions/workflows/R-CMD-check.yaml)
+
+[![Build Status](https://app.travis-ci.com/mmansolf/CourseraPkg.svg?branch=main)](https://app.travis-ci.com/mmansolf/CourseraPkg)
+
 <!-- badges: end -->
 
 The goal of CourseraPkg is to …
