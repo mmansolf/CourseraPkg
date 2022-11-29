@@ -22,10 +22,12 @@ Requires the following packages: \code{readr}, \code{dplyr}, \code{tidyr},
 \code{magrittr}
 }
 \examples{
+\dontrun{
 #These all produce the same output
 fars_summarize_years(c(2013,2014))
 fars_summarize_years(c('2013','2014'))
 fars_summarize_years(list(2013,2014))
 fars_summarize_years(list('2013','2014'))
+}
 
 }

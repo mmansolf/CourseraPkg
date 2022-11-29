@@ -25,8 +25,10 @@ If no accidents are available for the state provided, this function will
 print a message and return \code{NULL}
 }
 \examples{
+\dontrun{
 #These all produce the same output
 fars_map_state(2013)
 fars_map_state('2013')
+}
 
 }

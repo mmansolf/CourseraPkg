@@ -18,10 +18,12 @@ of data sets
 Requires the following packages: \code{readr}, \code{dplyr},\code{magrittr}
 }
 \examples{
+\dontrun{
 #These all produce the same output
 fars_read_years(c(2013,2014))
 fars_read_years(c('2013','2014'))
 fars_read_years(list(2013,2014))
 fars_read_years(list('2013','2014'))
+}
 
 }

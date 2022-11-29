@@ -18,7 +18,9 @@ years and creates a text string to use as a filename input to
 \code{\link{fars_read}}.
 }
 \examples{
+\dontrun{
 make_filename(2013)
 make_filename('2013') #NOTE: coerced to integer
+}
 
 }

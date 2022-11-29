@@ -18,6 +18,8 @@ converts it to a \code{tibble}.
 Requires the following packages: \code{readr}, \code{dplyr}
 }
 \examples{
+\dontrun{
 fars_read("accident_2013.csv")
+}
 
 }
