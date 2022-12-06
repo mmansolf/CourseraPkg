@@ -45,7 +45,7 @@ For illustration purposes in this vignette, I will only demonstrate the two func
 This function reads a list of files specified by a set of year values, counts the number of records in each year-month combination, and pivots to wide format with separate columns per year.
 
 ```{r}
-fars_summarize_years(c(2013,2014))
+#fars_summarize_years(c(2013,2014))
 ```
 
 ## fars_summarize_years
@@ -53,5 +53,5 @@ fars_summarize_years(c(2013,2014))
 This function reads a file specified by a year value and plots accidents in the state.
 
 ```{r}
-fars_map_state(05,2013)
+#fars_map_state(05,2013)
 ```
