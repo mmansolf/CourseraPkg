@@ -16,7 +16,7 @@ to number}
 A plot of accidents in the state from the provided year
 }
 \description{
-Reads a files specified by a year value and plots accidents in the state
+Reads a file specified by a year value and plots accidents in the state
 Requires the following packages: \code{readr}, \code{dplyr}, \code{tidyr},
 \code{maps}, \code{graphics}, \code{magrittr}
 If a state number is not contained in the file, this function will throw
@@ -27,8 +27,8 @@ print a message and return \code{NULL}
 \examples{
 \dontrun{
 #These all produce the same output
-fars_map_state(2013)
-fars_map_state('2013')
+fars_map_state(05,2013)
+fars_map_state(05,'2013')
 }
 
 }
