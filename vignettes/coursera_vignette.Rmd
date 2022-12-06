@@ -18,6 +18,7 @@ knitr::opts_chunk$set(
 library(devtools)
 install_github('mmansolf/CourseraPkg')
 library(CourseraPkg)
+# load_all()
 ```
 
 # Overview
@@ -38,12 +39,6 @@ This package contains the following functions:
 
 For illustration purposes in this vignette, I will only demonstrate the two functions fars_summarize_years and fars_map_state which produce interpretable output, rather than simply character strings or data sets.
 
-First, I set the working directory to that containing the data files:
-
-```{r}
-setwd('C:/Users/Max/Dropbox/RPackages/CourseraPkg/data')
-```
-
 ## fars_map_state
 
 This function reads a list of files specified by a set of year values, counts the number of records in each year-month combination, and pivots to wide format with separate columns per year.
@@ -57,5 +52,5 @@ fars_summarize_years(c(2013,2014))
 This function reads a file specified by a year value and plots accidents in the state.
 
 ```{r}
-fars_map_state(2013)
+fars_map_state(05,2013)
 ```
