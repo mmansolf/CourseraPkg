@@ -16,7 +16,8 @@ Imports:
     maps,
     readr,
     tidyr,
-    magrittr
+    magrittr,
+    testthat
 Suggests: 
     knitr,
     rmarkdown
