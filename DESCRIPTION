@@ -15,7 +15,8 @@ Imports:
     graphics,
     maps,
     readr,
-    tidyr
+    tidyr,
+    magrittr
 Suggests: 
     knitr,
     rmarkdown
