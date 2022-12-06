@@ -16,3 +16,7 @@ Imports:
     maps,
     readr,
     tidyr
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

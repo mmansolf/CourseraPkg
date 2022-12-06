@@ -113,7 +113,7 @@ fars_summarize_years <- function(years) {
 
 #' Plot Accidents for Provided Year
 #'
-#' Reads a files specified by a year value and plots accidents in the state
+#' Reads a file specified by a year value and plots accidents in the state
 #' Requires the following packages: \code{readr}, \code{dplyr}, \code{tidyr},
 #' \code{maps}, \code{graphics}, \code{magrittr}
 #' If a state number is not contained in the file, this function will throw
